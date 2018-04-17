@@ -15,6 +15,7 @@ def kind
    else
      person.partner = self
 end
+end
 
 class TriangleError < StandardError
 
