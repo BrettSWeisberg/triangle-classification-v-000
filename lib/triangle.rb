@@ -14,7 +14,7 @@ def kind
      raise TriangleError
      puts error.message
    end
-   
+
    elsif @s1 == @s2 && @s1 == @s3
      self.kind = :equilateral
 
@@ -22,7 +22,7 @@ def kind
      self.kind = :isosceles
 
    else
-     self.kind = :scalene     
+     self.kind = :scalene
    end
 end
 
